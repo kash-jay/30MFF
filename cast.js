@@ -1,4 +1,4 @@
-backButton = document.getElementById('back-wrapper');
+backButton = document.getElementById('back-button');
 actorInfoSections = document.querySelectorAll('.actor-info');
 
 backButton.onclick = function () {

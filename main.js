@@ -1,6 +1,7 @@
-castButton = document.getElementById('cast-wrapper');
+castButton = document.getElementById('cast-button');
 tipButtons = document.querySelectorAll('.tip-button');
 video = document.getElementById('video');
+closeBtns = document.querySelectorAll('.close-buttn');
 
 castButton.onclick = function () {
     window.location.href = 'cast.html';
@@ -45,7 +46,6 @@ tipButtons.forEach((button) => {
     })
 });
 
-closeBtns = document.querySelectorAll('.close-buttn');
 closeBtns.forEach((btn) => {
     btn.addEventListener('click', () => {
         modalOpen = document.getElementById(`modal-${modalActive}`);
