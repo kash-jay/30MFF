@@ -251,13 +251,14 @@ iframe {
 }
 
 .cast-name {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     width: 50%;
     height: 100px;
     display: flex;
-    justify-content: center;
+    justify-content:first baseline;
     align-items: center;
     font-size: 32px;
+    font-family: 'Mukta', sans-serif;
 }
 
 .cast-desc {
@@ -268,6 +269,8 @@ iframe {
     justify-content: center;
     align-items: center;
     margin-bottom: 10%;
+    text-align: center;
+    font-family: 'Mukta', sans-serif;
 }
 
 #kash .cast-pic {
@@ -286,16 +289,6 @@ iframe {
     to {
         opacity: 1;
         scale: 1;
-    }
-}
-
-@keyframes video {
-    from {
-        opacity: 0;
-    }
-
-    to {
-        opacity: 1;
     }
 }
 
