@@ -3,6 +3,8 @@
 body, html  {
     margin: 0;
     padding: 0;
+    background-color:beige;
+
 }
 
 #page-wrapper {
@@ -277,28 +279,29 @@ iframe {
     background-size: cover;
 }
 
-.tip-button:first-child {
+.tip-button:first-child, #modal-1 .modal-content {
     border-color: #3498db;
 }
 
-.tip-button:nth-child(2) {
+.tip-button:nth-child(2), #modal-2 .modal-content {
     border-color: #e74c3c;
 }
 
-.tip-button:nth-child(3) {
+.tip-button:nth-child(3), #modal-3 .modal-content {
     border-color: #27ae60;
 }
 
-.tip-button:nth-child(4) {
-    border-color: #f1c40f;
+.tip-button:nth-child(4), #modal-4 .modal-content {
+    border-color: #113520;
 }
 
-.tip-button:nth-child(5) {
+.tip-button:nth-child(5), #modal-5 .modal-content {
     border-color: #9b59b6;
 }
 
-.tip-button:nth-child(6) {
-    border-color: #2ecc71;
+.tip-button:nth-child(6), #modal-6 .modal-content {
+    border-color: #f1c40f;
+
 }
 
 @keyframes title {
