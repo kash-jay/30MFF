@@ -1,5 +1,5 @@
-backButton = document.getElementById('back-button');
-actorInfoSections = document.querySelectorAll('.actor-info');
+const backButton = document.getElementById('back-button');
+const actorInfoSections = document.querySelectorAll('.actor-info');
 
 backButton.onclick = function () {
     window.location.href = 'index.html';
@@ -7,9 +7,9 @@ backButton.onclick = function () {
 
 function scrollAnim() {
     for (var i = 0; i <actorInfoSections.length; i++) {
-        var windowHeight = window.innerHeight;
-        var elementTop = actorInfoSections[i].getBoundingClientRect().top;
-        var elementVisible = 100;
+        const windowHeight = window.innerHeight;
+        const elementTop = actorInfoSections[i].getBoundingClientRect().top;
+        const elementVisible = 100;
         if (elementTop < windowHeight - elementVisible) {
             actorInfoSections[i].classList.add('active');
         } else {
