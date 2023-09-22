@@ -292,6 +292,13 @@ iframe {
     background-size: cover;
 }
 
+#sneheel .cast-pic {
+    background-image: url('./images/sneheel.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .tip-button:first-child, #modal-1 .modal-content {
     border-color: #3498db;
 }
