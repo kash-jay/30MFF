@@ -10,7 +10,7 @@ The video was uploaded to YouTube and an iframe was used to show it on the websi
 Black was used as the background to the section with the title and the video to give it more of a cinematic feeling. The section with tips used a light background and each tip is associated with a color, for example the Reward Yourself tip was given yellow to be associated with feelings of happiness.
 ### Animations
 Most animations were achieved using some JavaScript. The scroll animations used windowHeight and getBoundingClientRect() to calculate when the animations would trigger.
-Other simpler animations used CSS and most of them used 'all' and 'ease' to smoothen them out.
+Other simpler animations used CSS and most of them used 'transition: all' and 'ease' to smoothen them out.
 Overall, the animations were used to give the website a smoother feeling just to improve user experience. 
 
 ## Evaluation
