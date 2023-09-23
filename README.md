@@ -14,4 +14,4 @@ Other simpler animations used CSS and most of them used 'transition: all' and 'e
 Overall, the animations were used to give the website a smoother feeling just to improve user experience. 
 
 ## Evaluation
-Overall, I think I met my expectations in this project. I ended up adding a few elements to my wireframe, which I otherwise stuck to throughout the development of this project. If I could go back and change my project, I would probably find a way to link the 30MFF video to a product or service, and I would change the website to one that is selling the product, instead of having an informational website.
+Overall, I think I met my expectations in this project. I ended up adding a few elements to my wireframe, which I otherwise stuck to throughout the development of this project. If I could go back and change my project, I would probably find a way to link the 30MFF video to a product or service, and I would change the website to one that is selling the product, instead of having created an informational website.
